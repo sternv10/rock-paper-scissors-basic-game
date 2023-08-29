@@ -50,7 +50,7 @@ function endGame(message) {
 
   setTimeout(function () {
     victoryMessageElement.textContent = "";
-  }, 3000); // Clear the message after 3 seconds
+  }, 3000);
 }
 
 function play(playerSelection) {
