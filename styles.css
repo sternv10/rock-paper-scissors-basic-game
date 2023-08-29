@@ -40,6 +40,9 @@ img {
 }
 
 .copyright {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-color: #5871a7;
   text-align: center;
   margin: 20px 0px 0px 0px;
