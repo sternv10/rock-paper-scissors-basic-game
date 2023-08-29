@@ -1,0 +1,56 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 48px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.score {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.clickable {
+  transition: transform 0.2s;
+}
+
+.clickable:hover {
+  transform: scale(1.1);
+}
+
+#play-again {
+  margin: 50px;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#play-again:hover {
+  background-color: #5871a7;
+}
+
+#victory-message {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
