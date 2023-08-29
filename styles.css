@@ -1,12 +1,5 @@
-.main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.main-title {
-  text-align: center;
-  font-size: 48px;
+body {
+  margin: 10px 0px 0px 0px;
 }
 
 h2 {
@@ -22,9 +15,20 @@ img {
   cursor: pointer;
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 48px;
+}
+
 .score {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .clickable {
@@ -35,8 +39,21 @@ img {
   transform: scale(1.1);
 }
 
+.copyright {
+  background-color: #5871a7;
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+  padding: 20px;
+  color: white;
+}
+
+.github {
+  text-decoration: none;
+  color: white;
+}
+
 #play-again {
-  margin: 50px;
+  margin: 45px;
   border: none;
   padding: 10px 20px;
   text-align: center;
